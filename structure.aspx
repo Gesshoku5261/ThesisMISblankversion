@@ -13,14 +13,14 @@
         <div>
             <h1 style="background-color: #66CCFF">論文審查系統</h1>
             <div class="vertical-menu">
-            <a href="#" class="active">Home</a>
-            <a href="#">個人資料</a>
-            <a href="#">審查規定</a>
-            <a href="#">選擇指導老師</a>
-            <a href="#">論文審查</a>
-            <a href="#">論文口試</a>
-            <a href="#">論文加分</a>
-            <a href="#">登出</a>
+            <a href="ST_1mainpage.aspx" class="active">Home</a>
+            <a href="ST_5personalinfo.aspx">個人資料</a>
+            <a href="regulation.aspx">審查規定</a>
+            <a href="ST_2applyInstuctor.aspx">選擇指導老師</a>
+            <a href="ST_3thesis.aspx">論文審查</a>
+            <a href="ST_4oral.aspx">論文口試</a>
+            <a href="ST_5addcredits.aspx">論文加分</a>
+            <a href="login.aspx">登出</a>
             </div>
         </div>
     </form>

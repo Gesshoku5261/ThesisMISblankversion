@@ -6,11 +6,18 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>論文審查系統-審查研究生論文計畫書</title>
+    <link rel="stylesheet" href="css/basicstructure.css" type="text/css" media="screen" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+        <h1 style="background-color: #66CCFF">論文審查系統</h1>
+           <div class="vertical-menu">
+            <a href="PR_RE_mainpage.aspx" class="active">Home</a>
+            <a href="PR_RE_personalinfo.aspx">個人資料</a>
+            <a href="PR_RE_thesis.aspx">論文審查</a>
+            <a href="PR_RE_addcredits.aspx">論文加分</a>
+            <a href="login.aspx">登出</a>
+            </div>
     </form>
 </body>
 </html>

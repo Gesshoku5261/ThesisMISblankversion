@@ -1,16 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PR_IN_thesis.aspx.cs" Inherits="ThesisMISblankversion.PR_IN_thesis" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PR_IN_mainpage.aspx.cs" Inherits="ThesisMISblankversion.ST_mainpage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title>論文審查系統-查看研究生論文計畫書申請</title>
+    <title>論文審查系統-指導老師首頁</title>
     <link rel="stylesheet" href="css/basicstructure.css" type="text/css" media="screen" />
 </head>
 <body>
     <form id="form1" runat="server">
-         <h1 style="background-color: #66CCFF">論文審查系統</h1>
+        <h1 style="background-color: #66CCFF">論文審查系統</h1>
             <div class="vertical-menu">
             <a href="PR_IN_mainpage.aspx" class="active">Home</a>
             <a href="PR_IN_personalinfo.aspx">個人資料</a>

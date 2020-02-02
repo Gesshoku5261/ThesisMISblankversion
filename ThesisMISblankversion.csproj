@@ -67,8 +67,43 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.css" />
+    <Content Include="css\animate.min.css" />
     <Content Include="css\basicstructure.css" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
     <Content Include="css\main.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\StyleSheet.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="backupplan\HomePage.aspx" />
+    <Content Include="backupplan\HomePage_Committee.aspx" />
+    <Content Include="backupplan\HomePage_Teacher.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\menu.gif" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\wow.min.js" />
+    <Content Include="backupplan\Login.aspx" />
+    <Content Include="backupplan\menu.gif" />
+    <Content Include="backupplan\PersonalInformation.aspx" />
+    <Content Include="backupplan\PersonalInformation_Committee.aspx" />
+    <Content Include="backupplan\PersonalInformation_Teacher.aspx" />
+    <Content Include="backupplan\Regulation.aspx" />
+    <Content Include="regulation.aspx" />
+    <Content Include="PR_RE_personalinfo.aspx" />
+    <Content Include="PR_IN_mainpage.aspx" />
+    <Content Include="PR_IN_personalinfo.aspx" />
+    <Content Include="PR_RE_mainpage.aspx" />
+    <Content Include="ST_6personalinfo.aspx" />
     <Content Include="test.aspx" />
     <Content Include="css\util.css" />
     <Content Include="structure.aspx" />
@@ -122,8 +157,100 @@
     <Content Include="App_Data\Thesis plan review system.mdf" />
     <Content Include="App_Data\Thesis plan review system_Log.ldf" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\Class1.cs" />
+    <Compile Include="backupplan\HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\HomePage_Committee.aspx.cs">
+      <DependentUpon>HomePage_Committee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\HomePage_Teacher.aspx.cs">
+      <DependentUpon>HomePage_Teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\MasterPage_Committee.master.cs">
+      <DependentUpon>MasterPage_Committee.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\MasterPage_NoName.master.cs">
+      <DependentUpon>MasterPage_NoName.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\MasterPage_Teacher.master.cs">
+      <DependentUpon>MasterPage_Teacher.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\PersonalInformation.aspx.cs">
+      <DependentUpon>PersonalInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\PersonalInformation_Committee.aspx.cs">
+      <DependentUpon>PersonalInformation_Committee.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\PersonalInformation_Teacher.aspx.cs">
+      <DependentUpon>PersonalInformation_Teacher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="backupplan\Regulation.aspx.cs">
+      <DependentUpon>Regulation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="regulation.aspx.cs">
+      <DependentUpon>regulation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="regulation.aspx.designer.cs">
+      <DependentUpon>regulation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PR_RE_personalinfo.aspx.cs">
+      <DependentUpon>PR_RE_personalinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PR_RE_personalinfo.aspx.designer.cs">
+      <DependentUpon>PR_RE_personalinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PR_IN_mainpage.aspx.cs">
+      <DependentUpon>PR_IN_mainpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PR_IN_mainpage.aspx.designer.cs">
+      <DependentUpon>PR_IN_mainpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PR_IN_personalinfo.aspx.cs">
+      <DependentUpon>PR_IN_personalinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PR_IN_personalinfo.aspx.designer.cs">
+      <DependentUpon>PR_IN_personalinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PR_RE_mainpage.aspx.cs">
+      <DependentUpon>PR_RE_mainpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PR_RE_mainpage.aspx.designer.cs">
+      <DependentUpon>PR_RE_mainpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ST_6personalinfo.aspx.cs">
+      <DependentUpon>ST_6personalinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ST_6personalinfo.aspx.designer.cs">
+      <DependentUpon>ST_6personalinfo.aspx</DependentUpon>
+    </Compile>
     <Compile Include="test.aspx.cs">
       <DependentUpon>test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -286,6 +413,13 @@
     <Compile Include="ST_5addcredits.aspx.designer.cs">
       <DependentUpon>ST_5addcredits.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\popins\Poppins-Black.ttf" />
@@ -357,6 +491,17 @@
     <Content Include="fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
     <Content Include="fonts\font-awesome-4.7.0\scss\_stacked.scss" />
     <Content Include="fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="backupplan\MasterPage.master" />
+    <Content Include="backupplan\MasterPage_Committee.master" />
+    <Content Include="backupplan\MasterPage_NoName.master" />
+    <Content Include="backupplan\MasterPage_Teacher.master" />
     <None Include="packages.config" />
     <Content Include="vendor\bootstrap\css\bootstrap-grid.css.map" />
     <Content Include="vendor\bootstrap\css\bootstrap-grid.min.css.map" />
@@ -371,7 +516,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="uploads\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
